@@ -1,0 +1,74 @@
+[
+  {
+    "name": "BMW Model SE",
+    "image": "assets/images/full_apps/rental_service/images/car1.jpg",
+    "location": "Pittsburgh Town",
+    "type": "Manual",
+    "price": 20,
+    "power": 320,
+    "speed": 175,
+    "time": 4.4,
+    "passengers": 4,
+    "doors": 4
+  },
+  {
+    "name": "Audi Model S",
+    "image": "assets/images/full_apps/rental_service/images/car2.jpg",
+    "location": "Downtown, Boston",
+    "type": "Auto",
+    "price": 23,
+    "power": 300,
+    "speed": 160,
+    "time": 3.5,
+    "passengers": 4,
+    "doors": 4
+  },
+  {
+    "name": "Mercedes Benz",
+    "image": "assets/images/full_apps/rental_service/images/car3.jpg",
+    "location": "New Jersey",
+    "type": "Auto",
+    "price": 18,
+    "power": 310,
+    "speed": 155,
+    "time": 4.0,
+    "passengers": 4,
+    "doors": 4
+  },
+  {
+    "name": "Toyota Supra",
+    "image": "assets/images/full_apps/rental_service/images/car4.jpg",
+    "location": "Thomridge, Hawaii",
+    "type": "Manual",
+    "price": 22,
+    "power": 325,
+    "speed": 180,
+    "time": 5.5,
+    "passengers": 4,
+    "doors": 4
+  },
+  {
+    "name": "Tesla Model S",
+    "image": "assets/images/full_apps/rental_service/images/car5.jpg",
+    "location": "Old Town Court",
+    "type": "Manual",
+    "price": 20,
+    "power": 380,
+    "speed": 200,
+    "time": 3.5,
+    "passengers": 2,
+    "doors": 2
+  },
+  {
+    "name": "Porsche 718",
+    "image": "assets/images/full_apps/rental_service/images/car6.jpg",
+    "location": "London, UK",
+    "type": "Auto",
+    "price": 22,
+    "power": 360,
+    "speed": 190,
+    "time": 4.0,
+    "passengers": 4,
+    "doors": 4
+  }
+]

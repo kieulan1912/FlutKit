@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>FlutKit - Flutter UI Kit</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="FlutKit is a nicely designed and developed mobile application UI
+      kit developed using Flutter." name="description" />
+  <meta content="Coderthemes" name="author" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <!-- App favicon -->
+  <link href="assets/images/favicon.ico" rel="shortcut icon" />
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- App css -->
+  <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+  <!-- Latest compiled and minified CSS -->
+
+
+</head>
+
+<body>
+  <!-- Begin page -->
+  <div id="wrapper">
+    <!-- ============================================================== -->
+    <!-- Start Page Content here -->
+    <!-- ============================================================== -->
+    <div class="content-page">
+      <div class="content">
+        <!-- Topbar Start -->
+        <div class="navbar-custom">
+          <a class="logo text-center d-none d-md-inline-block mr-2" href="index.html">
+            <span class="text-white font-weight-bold h3" style="letter-spacing: 1px">FlutKit</span>
+          </a>
+          <button class="btn btn-sm btn-dark d-inline-block d-lg-none
+              button-menu-mobile" type="button">
+            <i class="mdi mdi-menu mdi-18px"></i>
+          </button>
+
+          <span class="badge badge-danger float-right">v6.3.x</span>
+        </div>
+        <!-- end Topbar -->
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+          <div class="page-wrapper">
+            <div class="left-sidebar">
+              <div class="slimscroll-menu">
+                <div class="list-group list-group-transparent mb-0">
+                  <a class="list-group-item list-group-item-action" href="https://flutkit.coderthemes.com/preview.html" target="_blank">
+                    <span class="mr-2">
+                      <i class="mdi mdi-image-filter"></i> </span>Preview
+                  </a>
+
+                  <span class="list-group-item disabled">
+                    Introduction
+                  </span>
+
+                  <a class="list-group-item list-group-item-action" href="index.html">
+                    <span class="mr-2">
+                      <i class="mdi mdi-flag-variant-outline"></i> </span>FlutKit
+                  </a>
+
+                  <a class="list-group-item list-group-item-action" href="introduction-integration.html">
+                    <span class="mr-2">
+                      <i class="mdi mdi-flag-variant-outline"></i> </span>Integrations
+                  </a>
+
+                  <a class="list-group-item list-group-item-action" href="introduction-flutx.html">
+                    <span class="mr-2">
+                      <i class="mdi mdi-flag-variant-outline"></i> </span>FlutX
+                  </a>
+
+
+                  <span class="list-group-item disabled"> Setup </span>
+
+                  <a class="list-group-item list-group-item-action" href="setup-flutkit.html">
+                    <span class="mr-2"> <i class="mdi mdi-apps"></i> </span>FlutKit
+                  </a>
+
+                  <a class="list-group-item list-group-item-action" href="setup-integrations.html">
+                    <span class="mr-2"> <i class="mdi mdi-apps"></i> </span>Integrations
+                  </a>
+
+                  <span class="list-group-item disabled"> Other </span>
+
+                  <a class="list-group-item list-group-item-action" href="downloads.html">
+                    <span class="mr-2">
+                      <i class="mdi mdi-download"></i> </span>Downloads
+                  </a>
+
+                  <a class="list-group-item list-group-item-action active" href="faq.html">
+                    <span class="mr-2">
+                      <i class="mdi mdi-comment-question-outline"></i> </span>FAQs
+                  </a>
+
+
+
+                  <a class="list-group-item list-group-item-action" href="changelog.html">
+                    <span class="mr-2">
+                      <i class="mdi mdi-book-open-page-variant"></i> </span>Changelog
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- end left-sidebar-->
+
+            <div class="page-content">
+              <div class="card" id="">
+                <div class="card-body">
+                  <h4 class="mt-0 mb-2 font-weight-semibold">Errors
+                  </h4>
+
+                  <div class="accordion" id="accordionError">
+                    <ul>
+
+
+                      <li>
+                        <h5 class="mb-0">
+                          <button class="btn text-danger" type="button" style="letter-spacing: 0.3px;"
+                            data-toggle="collapse" data-target="#error1" aria-expanded="false" aria-controls="error1">
+                            Gradle fails building with "Missing project_info
+                            object"
+                          </button>
+                        </h5>
+
+                        <div id="error1" class="collapse" data-parent="#accordionError">
+                          <div class="ml-2 mt-1">
+                            <ol>
+                              <li>
+                                <p class="mb-1">Follow <a href="setup-integrations.html">Integrations's
+                                    firebase
+                                    setup</a> steps
+                                  properly.</p>
+                              </li>
+                              <li>
+                                <p class="mb-1">Place your google services
+                                  files at right
+                                  place.</p>
+                              </li>
+                              <li>
+                                <p class="mb-1">Add all dependency in
+                                  android and ios.</p>
+                              </li>
+                            </ol>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <h5 class="mb-0">
+                          <button class="btn text-danger" type="button" style="letter-spacing: 0.3px;"
+                            data-toggle="collapse" data-target="#error2" aria-expanded="false" aria-controls="error2">
+                            Platform Exception
+                          </button>
+                        </h5>
+
+                        <div id="error2" class="collapse" data-parent="#accordionError">
+                          <div class="ml-2 mt-1">
+
+                            <p class="mb-1 mt-1">
+                              Stop running application and follow this
+                              commands
+                            </p>
+                            <p class="bg-light p-2 mb-0">
+                              <code class="d-block">flutter clean</code>
+                              <code class="d-block">flutter pub get</code>
+                              <code class="d-block">flutter run</code>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end page-wrapper-->
+          </div>
+        </div>
+        <!-- content -->
+        <!-- Footer Start -->
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">2020 © FlutKit - by Coderthemes</div>
+              <div class="col-md-6">
+                <div class="text-md-right footer-links d-none d-sm-block">
+                  <a href="http://coderthemes.com/" target="_blank">About</a>
+                  <a href="http://coderthemes.com/#contact" target="_blank">Support</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- end Footer -->
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Page content -->
+      <!-- ============================================================== -->
+    </div>
+    <!-- END wrapper -->
+
+
+    <!-- bundle -->
+    <script src="assets/js/app.min.js"></script>
+
+</body>
+
+</html>

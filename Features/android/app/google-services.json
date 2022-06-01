@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "501488901478",
+    "project_id": "flutkit-feature",
+    "storage_bucket": "flutkit-feature.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501488901478:android:9992fdb610d098310dbca7",
+        "android_client_info": {
+          "package_name": "com.example.UIKitIntegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501488901478-26b7d8o4q9qtudosctf97jgnapd5bg7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.UIKitIntegration",
+            "certificate_hash": "54b5ccea52aeec7b3a104ba068f5818b7216bb64"
+          }
+        },
+        {
+          "client_id": "501488901478-68dejfnunm648cmlq16omol801828o87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsYdW-VI84WDJasX_infwj4RkyN6gqVC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501488901478-68dejfnunm648cmlq16omol801828o87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
